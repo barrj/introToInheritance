@@ -10,6 +10,8 @@
 		CDA1E0B318BF74D20038F286 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA1E0B218BF74D20038F286 /* Foundation.framework */; };
 		CDA1E0B618BF74D20038F286 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1E0B518BF74D20038F286 /* main.m */; };
 		CDA1E0BA18BF74D20038F286 /* introToInheritance.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CDA1E0B918BF74D20038F286 /* introToInheritance.1 */; };
+		CDA1E0C418BF74F20038F286 /* myBag.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1E0C118BF74F20038F286 /* myBag.m */; };
+		CDA1E0C518BF74F20038F286 /* mySuitcase.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1E0C318BF74F20038F286 /* mySuitcase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		CDA1E0B518BF74D20038F286 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CDA1E0B818BF74D20038F286 /* introToInheritance-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "introToInheritance-Prefix.pch"; sourceTree = "<group>"; };
 		CDA1E0B918BF74D20038F286 /* introToInheritance.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = introToInheritance.1; sourceTree = "<group>"; };
+		CDA1E0C018BF74F20038F286 /* myBag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myBag.h; path = ../myBag.h; sourceTree = "<group>"; };
+		CDA1E0C118BF74F20038F286 /* myBag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myBag.m; path = ../myBag.m; sourceTree = "<group>"; };
+		CDA1E0C218BF74F20038F286 /* mySuitcase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mySuitcase.h; path = ../mySuitcase.h; sourceTree = "<group>"; };
+		CDA1E0C318BF74F20038F286 /* mySuitcase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mySuitcase.m; path = ../mySuitcase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				CDA1E0B518BF74D20038F286 /* main.m */,
+				CDA1E0C018BF74F20038F286 /* myBag.h */,
+				CDA1E0C118BF74F20038F286 /* myBag.m */,
+				CDA1E0C218BF74F20038F286 /* mySuitcase.h */,
+				CDA1E0C318BF74F20038F286 /* mySuitcase.m */,
 				CDA1E0B918BF74D20038F286 /* introToInheritance.1 */,
 				CDA1E0B718BF74D20038F286 /* Supporting Files */,
 			);
@@ -139,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA1E0C418BF74F20038F286 /* myBag.m in Sources */,
 				CDA1E0B618BF74D20038F286 /* main.m in Sources */,
+				CDA1E0C518BF74F20038F286 /* mySuitcase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
