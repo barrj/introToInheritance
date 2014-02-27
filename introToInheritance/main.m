@@ -141,6 +141,8 @@ int main (int argc, const char * argv[]) {
     testPrint(@"Here's a test string");
     
     NSLog(@"first object has number of items %d", [[lots_O_Bags objectAtIndex:0] numItems]);
+    
+    NSLog(@"first object has cost of  %.2f", [[lots_O_Bags objectAtIndex:0] cost]);
 	
 	// not needed with automatic memory allocation
     // [pool drain];
