@@ -140,6 +140,8 @@ int main (int argc, const char * argv[]) {
     // and here's an example of a function that is defined in main.m  It's just a regular C function
     testPrint(@"Here's a test string");
     
+     NSLog(@"first object has name of  %@", [[lots_O_Bags objectAtIndex:0] myName]);
+    
     NSLog(@"first object has number of items %d", [[lots_O_Bags objectAtIndex:0] numItems]);
     
     NSLog(@"first object has cost of  %.2f", [[lots_O_Bags objectAtIndex:0] cost]);
